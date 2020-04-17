@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
+using CapitalWar.UI;
+
 namespace CapitalWar
 {
-    static class StartGame
+    static class Program
     {
         /// <summary>
         /// 应用程序的主入口点。
@@ -15,7 +17,7 @@ namespace CapitalWar
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormMain());
         }
     }
 }
